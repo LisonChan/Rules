@@ -1,0 +1,4 @@
+Foreign`select`[]DIRECT`.*
+Netflix`select`[]DIRECT`(Netflix|NETFLIX|新)
+Apple`select`[]DIRECT`[]Foreign
+Others`select`[]Foreign`[]DIRECT
