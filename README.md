@@ -1,2 +1,2 @@
-# ini
-Clashxr ini
+# 规则
+自己拼凑的各种规则
