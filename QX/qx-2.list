@@ -1,4 +1,4 @@
 🌍Global`select`[]PROXY`[]DIRECT
-📺Netflix`select`[]DIRECT`(Netflix|NETFLIX)
+📺Netflix`select`[]DIRECT`(Netflix|NETFLIX|NF|奈飞)
 🍎Apple`select`[]DIRECT`[]🌍Global
 🐟Others`select`[]🌍Global`[]DIRECT
