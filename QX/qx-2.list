@@ -1,4 +1,4 @@
 🌍Global`select`[]DIRECT`.*
 📺Netflix`select`[]DIRECT`(Netflix|NETFLIX|新)
-🍎Apple`select`[]DIRECT`[]Global
-🐟Others`select`[]Global`[]DIRECT
+🍎Apple`select`[]DIRECT`[]🌍Global
+🐟Others`select`[]🌍Global`[]DIRECT
