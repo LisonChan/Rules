@@ -1,12 +1,12 @@
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 # > Google
-^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-307
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-307
-^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-307
-^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-307
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) reject-307
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ reject-307
+^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) reject-307
+^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) reject-307
 # > 哔哩哔哩
-^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-307
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-307
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ reject-307
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash reject-307
 # >> 微信
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-307
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) reject-307
