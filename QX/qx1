@@ -31,7 +31,6 @@ https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrit
 [server_local]
 
 [filter_local]
-(NETFLIX|Netflix|netflix|NF|奈飞),Netflix
 GEOIP,CN,DIRECT
 FINAL,Global
 
