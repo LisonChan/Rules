@@ -8,3 +8,5 @@
 # > 哔哩哔哩
 ^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject-200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject-200
+# >> 微信
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_|advertisement|getappmsgad) url reject-200
