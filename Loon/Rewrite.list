@@ -1,5 +1,5 @@
 # Redirect Google Search Service
-^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 # > Google
 ^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
