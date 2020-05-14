@@ -1,11 +1,7 @@
 [custom]
-custom_proxy_group=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_group_common.list
-custom_proxy_group=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_group_gold.list
-custom_proxy_group=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_group_basic.list
+custom_proxy_group=!!import:https://gist.githubusercontent.com/LisonChan/72ccb9453633a17878ed1369312b320a/raw/382a801a8f3cca4cbfb01ac8e557cc41ba1f500a/common.list
+custom_proxy_group=!!import:https://gist.githubusercontent.com/LisonChan/c9a85b018a23718900273834505459c0/raw/5dc23caa29f8635ae6039e4695deb0985d3e2985/basic.list
 
 enable_rule_generator=true
 overwrite_original_rules=true
-surge_ruleset=!!import:https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_ruleset.list
-
-surge_rule_base=https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf
-quanx_rule_base=https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/dlercloud_lige_quanx.conf
+surge_ruleset=!!import:https://gist.githubusercontent.com/LisonChan/d8e76889af52195ae4ebb8c4d3931d84/raw/3b90feec618a0651174dee79bcd25a73d25dd2ad/ruleset.list
