@@ -1,5 +1,5 @@
-#!name=Display netflix ratings
-#!desc=（IMDb、douaban）
+#!name=Netflix评分
+#!desc=IMDb、douaban评分
 #!system=ios
 
 [Script]
