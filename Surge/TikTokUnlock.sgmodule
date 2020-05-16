@@ -1,0 +1,10 @@
+#!name=TikTok Unlock
+#!desc=Remove TikTok's regional restrictions.
+#!system=ios
+
+[URL Rewrite]
+(.*video_id=\w{32})(.*watermark=)(.*) $1 302
+(?<=(carrier|account|sys|sim)_region=)CN JP 307
+
+[MITM]
+hostname = %APPEND% api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
