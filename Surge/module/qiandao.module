@@ -1,0 +1,8 @@
+#!name=常用签到
+#!desc=适用于定时签到脚本
+#!system=ios
+
+[Script]
+饿了么签到 = type=cron,cronexp=0 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=604800
+B站签到 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=604800
+B站瓜子换硬币 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=604800
