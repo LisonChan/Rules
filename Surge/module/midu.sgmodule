@@ -1,3 +1,7 @@
+#!name=米读cookie
+#!desc=适用于定时签到脚本的Cookie获取
+#!system=ios
+
 [MITM]
 hostname = apiwz.midukanshu.com
 
