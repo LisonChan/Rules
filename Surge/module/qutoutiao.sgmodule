@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-api.1sapp.com
+hostname = %APPEND% api.1sapp.com
 
 [Script]
 http-request ^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
