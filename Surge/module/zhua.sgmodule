@@ -1,2 +1,2 @@
 [MITM]
-hostname = %APPEND% *
+hostname = %APPEND% *:0
