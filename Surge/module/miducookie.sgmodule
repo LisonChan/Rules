@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = apiwz.midukanshu.com
+hostname = %APPEND% apiwz.midukanshu.com
 
 [Script]
 http-request ^https:\/\/apiwz\.midukanshu\.com script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/midu.cookie.js, requires-body=true
