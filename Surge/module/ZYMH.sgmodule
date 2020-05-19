@@ -2,7 +2,8 @@
 #!desc=解锁知音漫画VIP
 #!system=ios
 
+[MITM]
+hostname = %APPEND% getuserinfo-globalapi.zymk.cn
+
 [Script]
 http-response ^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
-[MITM]
-MITM = %APPEND% getuserinfo-globalapi.zymk.cn
