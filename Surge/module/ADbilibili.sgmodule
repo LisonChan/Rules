@@ -1,2 +1,7 @@
+#!name=哔哩哔哩
+#!desc=哔哩哔哩 去广告
+#!system=ios
+
+[Rule]
 URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT
 URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
