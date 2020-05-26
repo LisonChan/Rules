@@ -5,6 +5,7 @@
 [URL Rewrite]
 (.*video_id=\w{32})(.*watermark=)(.*) $1 302
 (?<=(carrier|account|sys|sim)_region=)CN JP 307
+(?<=\?video_id=\w{32})[^*]+ 302
 
 [MITM]
-hostname = %APPEND% api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
+hostname = %APPEND% api*.amemv.com, api*.musical.ly, aweme*.snssdk.com, api*.tiktokv.com
