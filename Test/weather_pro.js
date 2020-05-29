@@ -34,7 +34,7 @@ $[daily($[month]月$[day]日  $[temperatureLow]~$[temperatureHigh]°C  $[weather
             air: false, //空气污染扩散条件指数,
             ac: false, //空调开启指数,
             ag: false, //过敏指数,
-            gl: true, //太阳镜指数,
+            gl: false, //太阳镜指数,
             mu: false, //化妆指数,
             airc: false, //晾晒指数,
             ptfc: false, //交通指数,
