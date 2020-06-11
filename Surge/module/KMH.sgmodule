@@ -6,4 +6,4 @@
 hostname = %APPEND% getuserinfo.321mh.com
 
 [Script]
-http-response ^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js
+http-response ^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/kmh.js,script-update-interval=0
