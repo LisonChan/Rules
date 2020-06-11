@@ -3,4 +3,4 @@
 #!system=ios
 
 [Script]
-天气 = type=cron,cronexp=0 8-20/2 * * *,script-path=https://raw.githubusercontent.com/ydzydzydz/Rules/master/Surge/resources/script/weather.js
+天气 = type=cron,cronexp=0 8-20/2 * * *,script-path=https://raw.githubusercontent.com/ydzydzydz/Rules/master/Surge/resources/script/weather.js,script-update-interval=0
