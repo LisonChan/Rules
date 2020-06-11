@@ -1,0 +1,6 @@
+#!name=SSID助手
+#!desc=SSID策略组
+#!system=ios
+
+[Script]
+SSID助手 = debug=1,script-path=https://raw.githubusercontent.com/LisonChan/Rules/master/Surge/wifi.js,type=event,event-name=network-changed,control-api=true
