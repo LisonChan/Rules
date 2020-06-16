@@ -1,0 +1,9 @@
+#!name= spotify
+#!desc= spotify去广告
+#!system=ios
+
+[Rule]
+https://raw.githubusercontent.com/TPCTPCTPC/Adblock-gist/master/URL-REGEX/Spotify.list,REJECT
+
+[MITM]
+hostname = %APPEND% spclient.wg.spotify.com
