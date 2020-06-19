@@ -2,4 +2,4 @@
 #!desc=Epic查看限免
 
 [Script]
-Epic = type=cron,cronexp=0 10 */6 * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js,script-update-interval=0
+Epic = type=cron,cronexp=0 10 */7 * *,wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js,script-update-interval=0
