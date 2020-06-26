@@ -14,12 +14,9 @@
 
 # gh：  GitHub搜索
 # gm：  Google图片搜索
-# sof:  Stack Overflow
-# se:   StackExchange
 # wiki: 维基百科
 # wk:   维基中文
 # mg:   Magi
-# tf:   Google 搜索 TestFlight
 
 # yd：有道词典搜索
 # trc: Google 译至中
@@ -63,15 +60,6 @@ hostname = %APPEND% duckduckgo.com
 # gh   (GitHub)
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
 
-# sof  (Stack Overflow)
-^https:\/\/duckduckgo.com\/\?q=sof\+([^&]+).+ https://stackoverflow.com/search?q=$1 302
-
-# se  (StackExchange)
-^https:\/\/duckduckgo.com\/\?q=se\+([^&]+).+ https://stackexchange.com/search?q=$1 302
-
-# wa  (WolframAlpha)
-^https:\/\/duckduckgo.com\/\?q=wa\+([^&]+).+ https://www.wolframalpha.com/input/?i=$1 302
-
 # wiki  (维基百科)
 ^https:\/\/duckduckgo.com\/\?q=wiki(\+|%20)([^&]+).+ http://wikipedia.org/wiki/$2 302
 
@@ -80,9 +68,6 @@ hostname = %APPEND% duckduckgo.com
 
 # mg  (Magi)
 ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
-
-# tf  (Google 搜索 TestFlight)
-^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
 
 # > 翻译
 # yd   (有道)
