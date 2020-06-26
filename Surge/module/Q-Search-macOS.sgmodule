@@ -17,6 +17,7 @@
 # wk:   维基中文
 # mg:   Magi
 
+
 # yd：有道词典搜索
 # trc: Google 译至中
 # tre: Google 译至英
@@ -38,7 +39,7 @@
 # tm: 天猫
 
 # ac:  Acfun
-# bli: 哔哩哔哩
+# bili: 哔哩哔哩
 # ytb: YouTube
 # ph:  PornHub 
 # gd:  Google Drive资源
@@ -56,6 +57,7 @@ hostname = %APPEND% duckduckgo.com
 
 #gm   (Google图片)
 ^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+
 # gh   (GitHub)
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
 
@@ -129,17 +131,14 @@ hostname = %APPEND% duckduckgo.com
 # ac (Acfun)
 ^https:\/\/duckduckgo.com\/\?q=ac\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
 
-# bli (哔哩哔哩) 
-^https:\/\/duckduckgo.com\/\?q=bli\+([^&]+).+ https://www.bilibili.com/search?keyword=$1 302
+# bili (哔哩哔哩) 
+^https:\/\/duckduckgo.com\/\?q=bili\+([^&]+).+ https://www.bilibili.com/search?keyword=$1 302
 
 # ytb  (YouTube)
 ^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
 
 # ph  (PornHub) 
 ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
-
-# gd  (Google Drive)
-^https:\/\/duckduckgo.com\/\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
 
 # tgd  (t.me/gdurl 搜索 Google Drive 资源)
 ^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
