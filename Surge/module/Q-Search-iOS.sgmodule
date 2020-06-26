@@ -18,6 +18,7 @@
 # wk:   维基中文
 # mg:   Magi
 
+
 # yd：有道词典搜索
 # trc: Google 译至中
 # tre: Google 译至英
@@ -56,6 +57,7 @@ hostname = %APPEND% duckduckgo.com
 
 #gm   (Google图片)
 ^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+
 # gh   (GitHub)
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
 
@@ -68,7 +70,9 @@ hostname = %APPEND% duckduckgo.com
 # mg  (Magi)
 ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
 
+
 # > 翻译
+
 # yd   (有道)
 ^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
 
@@ -124,6 +128,7 @@ hostname = %APPEND% duckduckgo.com
 # tm: 天猫
 ^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
 
+
 # 视频资源
 
 # ac (Acfun)
@@ -142,8 +147,8 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
 
 
-
 # 默认搜索
+
 # bi: 必应
 ^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
 
