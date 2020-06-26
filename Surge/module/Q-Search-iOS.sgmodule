@@ -3,7 +3,8 @@
 #!system=ios
 
 # Q-Search 
-# Modified by nzw9314 
+# Modified by LisonChan
+# From nzw9314 (https://raw.githubusercontent.com/nzw9314/Surge/master/Module/Q-Search_All_in_one.sgmodule)
 # From Neurogram (https://raw.githubusercontent.com/Neurogram-R/Surge/master/module/Q-Search.sgmodule)
 
 # - Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
