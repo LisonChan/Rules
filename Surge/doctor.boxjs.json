@@ -1,0 +1,17 @@
+{
+  "id": "doctor.app.sub",
+  "name": "签到应用订阅",
+  "author": "@Sunert",
+  "icon": "https://avatars1.githubusercontent.com/u/38126452?s=460&u=a5b9847e3cc91adedf3402b21c470e9260d31ec7&v=4",
+  "repo": "https://github.com/LisonChan/Rules",
+  "apps": [
+    {
+			"id": "elemSign",
+			"name": "饿了么签到",
+			"keys": ["cookie_elem"],
+			"author": "@syzzzf",
+			"repo": "https://github.com/songyangzz/QuantumultX/blob/master/elem/elemSign.js",
+			"icons": ["https://raw.githubusercontent.com/Orz-3/task/master/elem.png", "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
+		}
+	]
+}    
