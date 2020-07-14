@@ -14,10 +14,18 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/task/master/elem.png", "https://raw.githubusercontent.com/Orz-3/task/master/elem.png"]
     },
     {
-      "id": "WifiSsids",
-      "name": "连接这些SSID直连模式",
-      "keys": ["lkWifiSsids"],
-      "author": "@lowking",
+      "id": "lk.wifi.assistant",
+      "name": "Wi-Fi助手（surge专用）",
+      "settings": [
+        {
+          "id": "WifiSsids",
+          "name": "连接这些SSID直连模式",
+          "val": "",
+          "type": "text",
+          "desc": "填写SSID（数组），如果需要流量直连，请把“cellular”加到数组"
+        }
+      ],
+      "keys": ["WifiSsids"],
       "repo": "https://github.com/lowking/Scripts",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/WIFI.png", "https://raw.githubusercontent.com/Orz-3/task/master/WIFI.png"]
     },
