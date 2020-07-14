@@ -1,6 +1,6 @@
 const SSID = $network.wifi.ssid;
 const proxywifi = !$persistentStore.read("lkWifiSsids")?["ssid填这里！！！","这是第二个ssid"]:JSON.parse($persistentStore.read("lkWifiSsids"));
-let res = proxywifi.some(val => val === SSID);
+let res = proxywifi.some(val => val === (!!SSID ? SSID : "cellular"));
 let lkWifiLast = !$persistentStore.read("lkWifiLast")?"abcdefghijklmnopqrstuvwxyz":$persistentStore.read("lkWifiLast");
 if (lkWifiLast!=(!!SSID ? SSID : "cellular")){
     !$persistentStore.write((!!SSID ? SSID : "cellular"), "lkWifiLast")
@@ -15,7 +15,7 @@ if (lkWifiLast!=(!!SSID ? SSID : "cellular")){
 
 function notify(mode) {
     setTimeout(function () {
-        !!mode ? $notification.post("Wi-Fi assistant", "switch to direct mode", `your SSID is ${SSID}`) : $notification.post("Wi-Fi assistant", "switch to proxy mode", `${!!SSID ? "your SSID is " + SSID : "you are using cellular"}`)
+        !!mode ? $notification.post("Wi-Fi助手", "切换到【直接连接】", `${!!SSID ? "你的Wi-Fi：【" + SSID + "】" : "你正在使用流量"}`) : $notification.post("Wi-Fi助手", "切换到【规则模式】", `${!!SSID ? "你的Wi-Fi：【" + SSID + "】" : "你正在使用流量"}`)
     })
 }
 
