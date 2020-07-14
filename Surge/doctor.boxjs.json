@@ -6,6 +6,22 @@
   "repo": "https://github.com/LisonChan/Rules",
   "apps": [
     {
+      "id": "chavyleung.bilibili.live",
+      "name": "bilibili直播",
+      "keys": ["chavy_cookie_bilibili"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/bilibili/bilibili.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/bilibili.png", "https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png"]
+    },    
+    {
+      id: 'JD',
+      name: '京东',
+      keys: ['CookieJD', 'CookieJD2'],
+      author: '@NobyDa',
+      repo: 'https://github.com/NobyDa/Script/blob/master/JD-DailyBonus/JD_DailyBonus.js',
+      icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/jd.png', 'https://raw.githubusercontent.com/Orz-3/task/master/jd.png']
+    },
+    {
       "id": "elemSign",
       "name": "饿了么签到",
       "keys": ["cookie_elem"],
