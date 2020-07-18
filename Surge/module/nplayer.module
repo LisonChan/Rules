@@ -2,4 +2,4 @@
 #!desc=nplayer Rule
 
 [Rule]
-DOMAIN,www.googleapis.com,🎧Media
+DOMAIN,www.googleapis.com,direct
