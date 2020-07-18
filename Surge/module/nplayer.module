@@ -1,0 +1,5 @@
+#!name=nplayer
+#!desc=nplayer Rule
+
+[Rule]
+DOMAIN,www.googleapis.com,🎧Media
