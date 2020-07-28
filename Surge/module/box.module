@@ -1,6 +1,0 @@
-#!name=BoxJs
-#!desc=BoxJs
-#!system=ios
-
-[Rule]
-IP-CIDR,8.8.8.8/32,Proxy,no-resolve
