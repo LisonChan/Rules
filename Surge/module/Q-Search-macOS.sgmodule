@@ -127,7 +127,7 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.taobao.com/search?q=$1 302
 
 # tm: 天猫
-^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://list.tmall.com/m/search_product.htm?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://list.tmall.com/search_product.htm?q=$1 302
 
 
 # 视频资源
