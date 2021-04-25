@@ -85,7 +85,7 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=%E6%97%A5%E6%96%87\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
 
 
-# 社区
+# > 社区
 
 # 豆瓣
 ^https:\/\/duckduckgo.com\/\?q=%E8%B1%86%E7%93%A3\+([^&]+).+ https://www.douban.com/search/?q=$1 302
@@ -112,6 +112,7 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
 
 # > 购物
+
 # 值得买
 ^https:\/\/duckduckgo.com\/\?q=%E5%80%BC%E5%BE%97%E4%B9%B0\+([^&]+).+ https://search.smzdm.com/?v=b&s=$1 302
 
@@ -128,7 +129,7 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=%E5%A4%A9%E7%8C%AB\+([^&]+).+ https://list.tmall.com/search_product.htm?q=$1 302
 
 
-# 视频资源
+# > 视频资源
 
 # A站 (Acfun)
 ^https:\/\/duckduckgo.com\/\?q=A%E7%AB%99\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
@@ -143,7 +144,7 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=%E5%A5%BD%E5%BA%B7%E7%9A%84\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 
 
-# 默认搜索
+# > 默认搜索
 
 # 必应
 ^https:\/\/duckduckgo.com\/\?q=%E5%BF%85%E5%BA%94\+([^&]+).+ https://cn.bing.com/search?q=$1 302
