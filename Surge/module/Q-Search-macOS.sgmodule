@@ -111,6 +111,7 @@ hostname = %APPEND% duckduckgo.com
 # csdn: CSDN
 ^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
 
+
 # > 购物
 
 # 值得买
@@ -142,6 +143,9 @@ hostname = %APPEND% duckduckgo.com
 
 # 好康的  (PornHub) 
 ^https:\/\/duckduckgo.com\/\?q=%E5%A5%BD%E5%BA%B7%E7%9A%84\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+
+# 茶杯 (茶杯狐)
+^https:\/\/duckduckgo.com\/\?q=%E8%8C%B6%E6%9D%AF\+([^&]+).+ https://www.cupfox.com/search?key=$1 302
 
 
 # > 默认搜索
