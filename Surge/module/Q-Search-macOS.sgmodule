@@ -64,7 +64,7 @@ hostname = %APPEND% duckduckgo.com
 ^https:\/\/duckduckgo.com\/\?q=wiki(\+|%20)([^&]+).+ http://wikipedia.org/wiki/$2 302
 
 # 维基  (维基中文)
-^https:\/\/duckduckgo.com\/\?q=%E7%BB%B4%E5%9F%BA([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+^https:\/\/duckduckgo.com\/\?q=%E7%BB%B4%E5%9F%BA(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
 # mg  (Magi)
 ^https:\/\/duckduckgo.com\/\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2 302
