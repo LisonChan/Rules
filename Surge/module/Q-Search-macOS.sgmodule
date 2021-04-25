@@ -12,42 +12,41 @@
 
 # 可自行修改指令或者添加搜索引擎
 
-# gh：  GitHub搜索
-# gm：  Google图片搜索
+# 图片：  Google图片搜索
+# gay：  GitHub搜索
 # wiki: 维基百科
-# wk:   维基中文
+# 维基:   维基中文
 # mg:   Magi
 
 
-# yd：有道词典搜索
-# trc: Google 译至中
-# tre: Google 译至英
-# trj: Google 译至日
+# 有道：有道词典搜索
+# 中文: Google 译至中
+# 英文: Google 译至英
+# 日文: Google 译至日
 
 
-# db：豆瓣搜索
-# zh: 知乎
-# wb: 微博
-# wx: 微信
+# 豆瓣：豆瓣搜索
+# 知乎: 知乎
+# 微博: 微博
+# 微信: 微信
 # rd: Reddit
-# ssp: 少数派
+# 少数派: 少数派
 # csdn: CSDN
 
-# zdm: 什么值得买
-# amz: 亚马逊
-# jd: 京东
-# tb: 淘宝
-# tm: 天猫
+# 值得买: 什么值得买
+# 亚马逊: 亚马逊
+# 京东: 京东
+# 淘宝: 淘宝
+# 天猫: 天猫
 
-# ac:  Acfun
-# bili: 哔哩哔哩
-# ytb: YouTube
-# ph:  PornHub 
-# gd:  Google Drive资源
+# A站:  Acfun
+# B站: 哔哩哔哩
+# 油管: YouTube
+# 好康的:  PornHub 
  
-# bi: 必应
-# bd：百度搜索
-# ddg：DuckDuckGo 搜索
+# 必应: 必应
+# 百度：百度搜索
+# 鸭：DuckDuckGo 搜索
 # 无指令则转 Google 搜索
 
 [MITM]
@@ -55,7 +54,7 @@ hostname = %APPEND% duckduckgo.com
 
 [URL Rewrite]
 
-#图片   (Google图片)
+# 图片   (Google图片)
 ^https:\/\/duckduckgo.com\/\?q=%E5%9B%BE%E7%89%87\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
 
 # gay   (GitHub)
@@ -152,8 +151,8 @@ hostname = %APPEND% duckduckgo.com
 # 百度
 ^https:\/\/duckduckgo.com\/\?q=%E7%99%BE%E5%BA%A6\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 
-# ddg: DuckDuckGo 
-^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+# 鸭: DuckDuckGo 
+^https:\/\/duckduckgo.com\/\?q=%E9%B8%AD\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
 
 # 无指令: 谷歌
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
