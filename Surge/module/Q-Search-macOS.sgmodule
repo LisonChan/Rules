@@ -39,11 +39,11 @@
 # 淘：淘宝
 # 猫：天猫
 
-# A：Acfun
-# B：哔哩哔哩
-# Y：YouTube
-# P：PornHub
-# C：茶杯狐
+# a：Acfun
+# b：哔哩哔哩
+# y：YouTube
+# p：PornHub
+# c：茶杯狐
  
 # bing：必应搜索
 # 度：百度搜索
@@ -134,19 +134,19 @@ hostname = %APPEND% duckduckgo.com
 # > 视频资源
 
 # A (Acfun)
-^https:\/\/duckduckgo.com\/\?q=(?!:a)\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
+^https:\/\/duckduckgo.com\/\?q=a\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
 
 # B (哔哩哔哩) 
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.bilibili.com/search?keyword=$1 302
 
 # Y  (YouTube)
-^https:\/\/duckduckgo.com\/\?q=Y\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
+^https:\/\/duckduckgo.com\/\?q=y\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
 
 # P  (PornHub) 
-^https:\/\/duckduckgo.com\/\?q=P\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+^https:\/\/duckduckgo.com\/\?q=p\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 
 # C (茶杯狐)
-^https:\/\/duckduckgo.com\/\?q=C\+([^&]+).+ https://www.cupfox.com/search?key=$1 302
+^https:\/\/duckduckgo.com\/\?q=c\+([^&]+).+ https://www.cupfox.com/search?key=$1 302
 
 
 # > 默认搜索
