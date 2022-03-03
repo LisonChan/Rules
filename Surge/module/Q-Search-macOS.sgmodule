@@ -134,7 +134,7 @@ hostname = %APPEND% duckduckgo.com
 # > 视频资源
 
 # A (Acfun)
-^https:\/\/duckduckgo.com\/\?q=?!:a\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
+^https:\/\/duckduckgo.com\/\?q=(?!:a)\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
 
 # B (哔哩哔哩) 
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.bilibili.com/search?keyword=$1 302
